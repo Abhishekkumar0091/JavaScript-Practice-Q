@@ -24,14 +24,14 @@ for(let num = 1; num<=20; num++)
 
 for(let i =1; i<=10; i++)
 {
-    console.log(`5*${i}=`+i*5);
+    console.log(`5*${i}=`,i*5);
 }
 
 4. Print the numbers from 10 down to 1 (reverse order).
 
 for(let num =10; num>=1; num--)
 {
-    console.log(`reverse is:`+num)
+    console.log(`reverse is:`,num)
 }
 
 // 5. Print the sum of numbers from 1 to 50.
@@ -104,7 +104,7 @@ console.log("Total Odd is =",count);
    {
      factorial *=i;
    }
-   console.log(`factorial of 5! =`+factorial);
+   console.log(`factorial of 5! =`,factorial);
 
 // 10. Print the characters of a string one by one.
 
@@ -130,44 +130,44 @@ for(let num=1; num<=100; num++)
 // 2. Print the reverse of a string using a loop.
 // Example: "Hello" → "olleH"
 
-// let string = "hello";
-//    for(let i=string.length-1; i>=0; i--)
-//    {
-//     console.log(string[i]);
-//    }
+let string = "hello";
+   for(let i=string.length-1; i>=0; i--)
+   {
+    console.log(string[i]);
+   }
 
 // 3. Count how many vowels are in a string.
 // Example: "javascript"
 
-// let str ="javascript";
-// let count =0;
-// for(let i=0; i<str.length; i++)
-// {
-//     count++;
-// }
-// console.log("Total count is:"+count);
+let str ="javascript";
+let count =0;
+for(let i=0; i<str.length; i++)
+{
+    count++;
+}
+console.log("Total count is:",count);
  
 // 4. Find the largest number in an array.
 // Example: [10, 25, 3, 98, 45]
 
-// let array =[10,25,3,98,45];
-// let largest=array[0];
-// for(let i=0; i<array.length; i++)
-// {
-//     if(array[i] > largest)
-//     {
-//        largest = array[i];
-// }
-// }
-// console.log("Largest number is:",largest);
+let array =[10,25,3,98,45];
+let largest=array[0];
+for(let i=0; i<array.length; i++)
+{
+    if(array[i] > largest)
+    {
+       largest = array[i];
+}
+}
+console.log("Largest number is:",largest);
 
 // 5. Print the square of each number from 1 to 10.
 
-// for(let i =1; i<=10; i++)
-// {
-//  console.log(i*i)
+for(let i =1; i<=10; i++)
+{
+ console.log(i*i)
   
-// }
+}
 
 // 6. Calculate the factorial of any number (e.g., 6! = 720).
 
@@ -177,5 +177,6 @@ for(i=6; i>=1; i--)
     factorial*=i;
 }
 console.log(`factorial is:`,factorial);
+
 
 
